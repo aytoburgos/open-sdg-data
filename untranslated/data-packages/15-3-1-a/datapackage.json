@@ -1,0 +1,55 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Nombre",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Nombre de ejemplo 1",
+                "Nombre de ejemplo 2",
+                "Nombre de ejemplo 3",
+                "Nombre de ejemplo 4",
+                "Nombre de ejemplo 5",
+                "Nombre de ejemplo 6",
+                "Nombre de ejemplo 7",
+                "Nombre de ejemplo 8",
+                "Nombre de ejemplo 9",
+                "Nombre de ejemplo 10",
+                "Nombre de ejemplo 11",
+                "Nombre de ejemplo 12",
+                "Nombre de ejemplo 13",
+                "Nombre de ejemplo 14",
+                "Nombre de ejemplo 15",
+                "Nombre de ejemplo 16",
+                "Nombre de ejemplo 17",
+                "Nombre de ejemplo 18",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "15-3-1-a",
+  "title": "15-3-1-a"
+}
